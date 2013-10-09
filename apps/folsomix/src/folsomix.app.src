@@ -1,0 +1,11 @@
+{application, folsomix, [
+    {description, "Folsom metrics dumping tool"},
+    {vsn, "0.1"},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {mod, { folsomix_app, []}},
+    {env, []}
+ ]}.
